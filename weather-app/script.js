@@ -28,7 +28,7 @@ function addWeatherToPage(data) {
                             <small>${data.weather[0].main}</small>
                           `;
     //cleanup
-    main.innerHTML = '';
+    main. innerHTML = '';
 
     main.appendChild(weather);
 
